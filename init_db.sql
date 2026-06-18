@@ -1,9 +1,9 @@
 
-CREATE DATABASE IF NOT EXISTS salle_sport
+CREATE DATABASE IF NOT EXISTS salle_sport_db
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE salle_sport;
+USE salle_sport_db;
 
 CREATE TABLE IF NOT EXISTS membre (
                                        id               INT          NOT NULL AUTO_INCREMENT,
